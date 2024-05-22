@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- External Css  -->
+  <link rel="stylesheet" href="contact.css">
+  <!-- google fonts  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- font awesome  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <title>Contact</title>
+</head>
+<body>
+  <!-- navbar -->
+    <section id="navbartwo"> 
+      <div class="navbar">
+        <h1 class="navbarhead">Nostra</h1>
+        <i style="color: #f0eded;" class="fa-solid fa-bars navicono"  id="navicon"></i>
+        <ul class="ul1">
+          <li class="ul1"><a href="index.html">Home</a></li>
+          <li class="ul1"><a href="index.html">New Arrival</a></li>
+          <li class="ul1"><a href="index.html">Most Wanted</a></li>
+          <li class="ul1"><a href="#">Collections</a></li>
+          <li class="ul1"><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </section>
+    <!-- -------- sidenav------  -->
+    <div id="sidenav" class="sidenavo">
+      <ul class="ul2 ">
+        <li class="li2"><a href="index.html">Home</a></li>
+        <li class="li2"><a href="index.html">New Arrival</a></li>
+        <li class="li2"><a href="index.html">Most Wanted</a></li>
+        <li class="li2"><a href="#">Collections</a></li>
+        <li class="li2"><a href="#">Contact Us</a></li>
+      </ul>
+      <i class="fa-solid fa-xmark  sidenavicon" id="sideicon"></i>
+    </div>
+    <!-- contact  -->
+    <section id="contact">
+      <div class="contactbox">
+        <div class="para">
+          <p class="popup">Form Completed Successfully</p>
+        </div>
+        <h1 style="font-weight: bolder; font-size: 1.5vw;">Contact Us</h1>
+        <div class="form">
+          <form action="">
+            <div class="Namee">
+              <input type="text" id="nameinput" placeholder="Name">
+              <i class="fa-solid fa-check nameicon" style="text-align: right; margin-top: -3vw; font-size: 1vw;visibility: hidden;"></i>
+              <label for="nameinput" class="namelabel">Enter Your Name</label>
+            </div>
+            <div class="Email">
+              <input type="text" id="emailinput" placeholder="Email">
+              <i class="fa-solid fa-check emailicon" style="text-align: right; margin-top: -3vw; font-size: 1vw;visibility: hidden;"></i>
+              <label for="emailinput" class="emaillabel">Enter Your Email</label>
+            </div>
+            <div class="Phone">
+              <input type="tel" id="phoneinput" placeholder="Phone" maxlength="10">
+              <i class="fa-solid fa-check  phoneicon" style="text-align: right; margin-top: -3vw; font-size: 1vw;visibility: hidden;"></i>
+              <label for="phoneinput" class="phonelabel">Enter Your Phone</label>
+            </div>  
+            <div class="Textarea">
+              <textarea name="text" id="textareainput" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+            </div>  
+            <div class="submit">
+              <input type="submit" id="submitbtn" >
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- newsletter  -->
+    <section id="newsletter">
+      <h1 style="font-size: 3vw;">Join our News Letter</h1>
+      <p style="font-size: 2vw;">Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+      <input type="text"style="width: 80vw;height: 2.6vw;margin:1vw 0vw; border:2px solid black">
+      <div>
+        <button class="newsbtn" style="padding: 0.4vw; font-size: 1.5vw; color: white; background-color: black; border: solid black 1px; border-radius: 0.5vw;" >Subscribe<i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    </section>
+    <footer>
+      <h1 style="font-size: 3vw;">Nostra</h1>
+      <p style="font-size: 2.1vw;">The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those interest</p>
+      <div class="footericons">
+        <i style="font-size: 2vw; color: white; margin-right: 5vw; margin-top: 1vw;" class="icon fa-brands fa-instagram"></i>
+        <i style="font-size: 2vw; color: white; margin-right: 5vw; margin-top: 1vw;" class="icon fa-brands fa-twitter"></i>
+        <i style="font-size: 2vw; color: white; margin-right: 5vw; margin-top: 1vw;" class="icon fa-brands fa-facebook"></i>
+      </div>
+      <p style="font-size: 2vw;margin-top: 1vw;">@ 2023 Nostra.com</p>
+    </footer>
+  <!-- External Javascript  -->
+  <script src="contact.js"> </script>
+</body>
+</html>

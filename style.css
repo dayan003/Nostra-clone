@@ -1,0 +1,330 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+body::-webkit-scrollbar{
+  width: 0px;
+}
+/* ---------------offerbar--------- */
+.offerbar{
+  background-color: black;
+  padding: 5px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.offerhead{
+  color: white;
+  font-weight: 100;
+  word-spacing: 2px;
+  font-size: 2vw;
+}
+.offericon{
+  color: white;
+  font-size: 2vw;
+  padding-top: 0.5vw;
+  margin-left: 2vw;
+}
+/* -----------------navbar---------------- */
+#navbartwo{
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+}
+.navbar{
+  background-color: #f0eded;
+  padding: 1.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbarhead{
+  margin-left: 4vw;
+}
+.navbar .ul1,.li1{
+  display: inline-block;
+}
+.navbar a{
+  text-decoration: none;
+  color: black;
+  margin-right: 50px;
+  transition: 2s;
+}
+.navbar a:hover{
+  text-decoration: underline;
+}
+/* sidenav  */
+
+/* -----carsoual----- */
+#carsoual{
+  margin: 1vw;
+}
+.carsoualcont{
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  border-radius: 0.5vw;
+}
+.slidercont{
+  display: flex;
+  width: 100%;
+  transition: 2s;
+  
+}
+.slideimg img{
+  width: 100vw;
+  height: 100%;
+}
+.fa-angle-left{
+  color: white;
+  font-size: 10vw;
+  position: absolute;
+  top:30%;
+  left: 5%;
+  z-index: 1 ;
+}
+.fa-angle-right{
+  color: white;
+  font-size: 10vw;
+  position: absolute;
+  top: 30%;
+  right: 5%;
+  z-index: 1 ;
+}
+.slidercontent{
+  position: absolute;
+  top: 7vw;
+  width: 100%;
+  text-align: center; 
+}
+.carsoualhead{
+  font-size: 5vw;
+  color: white;
+
+}
+.carsoualpara{
+  font-size: 2vw;
+  color: white;
+  font-weight: 800;
+  width: 100%;
+}
+.carsoualbutton{
+  color: black;
+  padding: 0.5vw;
+  margin-top: 1.5vw;
+  font-size: 1vw;
+}
+/* brand  */
+#brand{
+  margin: 2vw;
+}
+.brandhead{
+  font-size: 2vw;
+}
+.brandicons{
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+}
+.brandicon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.brandicon img{
+  width: 5vw;
+}
+.brandicon h1{
+  font-weight: lighter;
+  font-size: 2vw;
+  text-align: center;
+}
+/* services */
+#services{
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+.serviceshead{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.serviceleft{
+  width: 30vw;
+  font-size: 1.7vw;
+  font-weight: 900;
+}
+.serviceright{
+  font-size: 1.5vw;
+}
+.servicesboxs{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2vw;
+}
+.servicesbox{
+  background-color: rgb(212, 211, 211);
+  width: 20vw;
+  text-align: center;
+  padding: 0.5vw;
+}
+/* -------sidenav-----  */
+.sidenavo{
+  background-color: rgb(26, 25, 25);
+  width: 50vw;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  padding: 50px 30px 50px 20px;
+  display: flex;
+  justify-content: space-between;
+  left: -850px;
+  transition: 2s;
+  z-index: 2;
+}
+.ul2{
+  display: inline-block; 
+}
+.li2{
+  padding-top: 20px;
+  list-style: none;
+}
+.ul2 a{
+  color: white;
+  text-decoration: none;
+}
+.ul2 a:hover{
+  text-decoration: underline;
+}
+.sidenavicon{
+  display: inline-block;
+  color: rgb(255, 255, 255) !important;
+  font-size: 30px;
+}
+/* -------------- new arrivals ----- */
+#new{
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+#new h1{
+  margin-top: 3vw;
+}
+.newarrivals{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.arrivalbox {
+  width: 20vw;
+  margin-top: 3vw;
+  position: relative;
+}
+.arrivalbox img{
+  width: 100%;
+}
+.arrivalbg{
+  position: absolute;
+  top: 0vw;
+  background-color: rgba(0, 0, 0, 0.699);
+  width: 100%;
+  height: 100%;
+}
+.arrivalbtn{
+  position: absolute;
+  top: 9vw;
+  left: 5.5vw;
+  padding: 0.8vw;
+  border: white 2px solid;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 1vw;
+}
+.arrivalbtn i{
+  margin-left: 1vw;
+}
+/* most wanted --------------- */
+#wanted{
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: 3vw;
+}
+.wantedhead{
+  font-weight: 900;
+  margin-bottom: 3vw;
+}
+.wantedboxes{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  overflow-x: scroll;
+}
+.wantedboxes::-webkit-scrollbar{ 
+  appearance: none;
+} 
+.wantedbox{
+  position: relative;
+}
+.wantedbox img{
+  width: 20vw;
+}
+.wantedbox .imgt{
+  width: 3vw;
+  position: absolute;
+  top: 15vw;
+  left: 16vw;
+  z-index: 1;
+}
+.wantedbox h1{
+  background-color: red;
+  border-radius: 10px;
+  padding: 0.3vw;
+  position: absolute;
+  top: 0vw;
+  color: white;
+  font-size: 1.5vw;
+  width: 5vw;
+  text-align: center;
+  font-weight: 100;
+}
+/* limited offer  */
+#limitedoffer{
+  margin: 2vw;
+  background-color: #1d232c;
+  display: flex;
+  padding: 2vw 5vw;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+}
+.limitedbutton{
+  padding: 0.5vw;
+  font-size: 1vw;
+  letter-spacing: 0.1vw;
+}
+/* newsletter --------  */
+#newsletter{
+  text-align: center;
+}
+/* footer----- */
+footer{
+  margin-top: 2vw;
+  background-color: #1d232c;
+  padding: 2.5vw;
+  color: white;
+}
+
+/* media query navbar  */
+@media only screen and (max-width: 1200px){
+  .navbar .ul1{
+    display: none;
+  }
+  .navicono{
+    color: black !important;
+    font-size: 30px;
+    margin-right: 50px;
+  }
+}

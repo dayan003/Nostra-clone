@@ -1,0 +1,207 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+body::-webkit-scrollbar{
+  width: 0px;
+}
+
+/* -----------------navbar---------------- */
+#navbartwo{
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+}
+.navbar{
+  background-color: #f0eded;
+  padding: 1.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbarhead{
+  margin-left: 4vw;
+}
+.navbar .ul1,.li1{
+  display: inline-block;
+}
+.navbar a{
+  text-decoration: none;
+  color: black;
+  margin-right: 50px;
+  transition: 2s;
+}
+.navbar a:hover{
+  text-decoration: underline;
+}
+/* -------sidenav-----  */
+.sidenavo{
+  background-color: rgb(26, 25, 25);
+  width: 50vw;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  padding: 50px 30px 50px 20px;
+  display: flex;
+  justify-content: space-between;
+  left: -850px;
+  transition: 2s;
+  z-index: 2;
+}
+.ul2{
+  display: inline-block; 
+}
+.li2{
+  padding-top: 20px;
+  list-style: none;
+}
+.ul2 a{
+  color: white;
+  text-decoration: none;
+}
+.ul2 a:hover{
+  text-decoration: underline;
+}
+.sidenavicon{
+  display: inline-block;
+  color: rgb(255, 255, 255) !important;
+  font-size: 30px;
+}
+/* contact  */
+#contact{
+  margin: 2vw;
+}
+.contactbox{
+  background-color: black;
+  color: white;
+  padding: 2vw 2vw;
+}
+.para{
+  display: flex;
+  justify-content: center;
+}
+.popup{
+  width: 20vw;
+  text-align: center;
+  background-color: green;
+  padding: 1vw;
+  transition: 2s;
+  /* display: none; */
+  /* visibility: hidden; */
+  margin-left: -150vw;
+  font-size: 1vw;
+  transition: 2s;
+}
+.Namee,.Phone,.Email{
+  text-align: center !important;
+}
+#nameinput{
+  width: 61vw;
+  height: 3vw;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  font-size: 1vw;
+  margin-top: 1vw;
+  padding: 0vw 1vw;
+  color: white;
+}
+#nameinput:focus{
+  outline: none;
+}
+.namelabel{
+  display: block;
+  margin-left: -55vw;
+  margin-top: 0.5vw;
+  font-size: 0.8vw;
+  color: grey;
+  visibility: hidden;
+}
+#phoneinput{
+  width: 61vw;
+  height: 3vw;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  font-size: 1vw;
+  margin-top: 1vw;
+  padding: 0vw 1vw;
+  color: white;
+}
+#phoneinput:focus{
+  outline: none;
+}
+.phonelabel{
+  display: block;
+  margin-left: -55vw;
+  margin-top: 0.5vw;
+  font-size: 0.8vw;
+  color: grey;
+  visibility: hidden;
+}
+#emailinput{
+  width: 61vw;
+  height: 3vw;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  font-size: 1vw;
+  margin-top: 1vw;
+  padding: 0vw 1vw;
+  color: white;
+}
+#emailinput:focus{
+  outline: none;
+}
+.emaillabel{
+  display: block;
+  margin-left: -55vw;
+  margin-top: 0.5vw;
+  font-size: 0.8vw;
+  color: grey;
+  visibility: hidden;
+}
+.Textarea{
+  text-align: center;
+}
+textarea{
+  color: black;
+  width: 61vw;
+  height: 4vw;
+  margin-top: 1vw;
+  padding: 1vw;
+  font-size: 1vw;
+}
+.submit{
+  text-align: center;
+  margin-top: 1vw;
+}
+#submitbtn{
+  padding: 0.5vw;
+  font-size: 1vw;
+}
+/* newsletter --------  */
+#newsletter{
+  text-align: center;
+}
+/* footer----- */
+footer{
+  margin-top: 2vw;
+  background-color: #1d232c;
+  padding: 2.5vw;
+  color: white;
+}
+
+/* media query navbar  */
+@media only screen and (max-width: 1200px){
+  .navbar .ul1{
+    display: none;
+  }
+  .navicono{
+    color: black !important;
+    font-size: 30px;
+    margin-right: 50px;
+  }
+}
